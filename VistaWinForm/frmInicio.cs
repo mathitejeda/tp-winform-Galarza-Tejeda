@@ -27,7 +27,7 @@ namespace VistaWinForm
 
             try
             {
-                listaArticulo = articulonegocio.Listar();
+                listaArticulo = articulonegocio.listar2();
                 list.DataSource = listaArticulo;
                 list.Columns["ID"].Visible = false;
                 list.Columns["Codigo"].Visible = false;

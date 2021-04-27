@@ -489,19 +489,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bitzer\\.nuget\\packages\\": {}
+    "C:\\Users\\mathi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bitzer\\Documents\\2021\\Programcion III\\Actividad2\\Actividad2_2\\TP2\\VistaWinForm\\VistaWinForm.csproj",
+      "projectUniqueName": "C:\\Users\\mathi\\git\\Programacion-III\\VistaWinForm\\VistaWinForm.csproj",
       "projectName": "VistaWinForm",
-      "projectPath": "C:\\Users\\bitzer\\Documents\\2021\\Programcion III\\Actividad2\\Actividad2_2\\TP2\\VistaWinForm\\VistaWinForm.csproj",
-      "packagesPath": "C:\\Users\\bitzer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bitzer\\Documents\\2021\\Programcion III\\Actividad2\\Actividad2_2\\TP2\\VistaWinForm\\obj\\",
+      "projectPath": "C:\\Users\\mathi\\git\\Programacion-III\\VistaWinForm\\VistaWinForm.csproj",
+      "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mathi\\git\\Programacion-III\\VistaWinForm\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\bitzer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -515,11 +515,11 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\bitzer\\Documents\\2021\\Programcion III\\Actividad2\\Actividad2_2\\TP2\\Controlador\\Controlador.csproj": {
-              "projectPath": "C:\\Users\\bitzer\\Documents\\2021\\Programcion III\\Actividad2\\Actividad2_2\\TP2\\Controlador\\Controlador.csproj"
+            "C:\\Users\\mathi\\git\\Programacion-III\\Controlador\\Controlador.csproj": {
+              "projectPath": "C:\\Users\\mathi\\git\\Programacion-III\\Controlador\\Controlador.csproj"
             },
-            "C:\\Users\\bitzer\\Documents\\2021\\Programcion III\\Actividad2\\Actividad2_2\\TP2\\Modelo\\Modelo.csproj": {
-              "projectPath": "C:\\Users\\bitzer\\Documents\\2021\\Programcion III\\Actividad2\\Actividad2_2\\TP2\\Modelo\\Modelo.csproj"
+            "C:\\Users\\mathi\\git\\Programacion-III\\Modelo\\Modelo.csproj": {
+              "projectPath": "C:\\Users\\mathi\\git\\Programacion-III\\Modelo\\Modelo.csproj"
             }
           }
         }
@@ -551,7 +551,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

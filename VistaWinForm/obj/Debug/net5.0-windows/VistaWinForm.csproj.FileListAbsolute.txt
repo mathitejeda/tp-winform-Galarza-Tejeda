@@ -37,3 +37,42 @@ C:\Users\bitzer\Documents\2021\Programcion III\Actividad2\Actividad2_2\TP2\Vista
 C:\Users\bitzer\Documents\2021\Programcion III\Actividad2\Actividad2_2\TP2\VistaWinForm\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\bitzer\Documents\2021\Programcion III\Actividad2\Actividad2_2\TP2\VistaWinForm\obj\Debug\net5.0-windows\VistaWinForm.FrmAgegarArt.resources
 C:\Users\bitzer\Documents\2021\Programcion III\Actividad2\Actividad2_2\TP2\VistaWinForm\obj\Debug\net5.0-windows\VistaWinForm.FrmEliminar.resources
+C:\Users\mathi\git\Programacion-III\VistaWinForm\bin\Debug\net5.0-windows\Controlador.deps.json
+C:\Users\mathi\git\Programacion-III\VistaWinForm\bin\Debug\net5.0-windows\Controlador.runtimeconfig.json
+C:\Users\mathi\git\Programacion-III\VistaWinForm\bin\Debug\net5.0-windows\Controlador.runtimeconfig.dev.json
+C:\Users\mathi\git\Programacion-III\VistaWinForm\bin\Debug\net5.0-windows\Modelo.deps.json
+C:\Users\mathi\git\Programacion-III\VistaWinForm\bin\Debug\net5.0-windows\Modelo.runtimeconfig.json
+C:\Users\mathi\git\Programacion-III\VistaWinForm\bin\Debug\net5.0-windows\Modelo.runtimeconfig.dev.json
+C:\Users\mathi\git\Programacion-III\VistaWinForm\bin\Debug\net5.0-windows\Modelo.exe
+C:\Users\mathi\git\Programacion-III\VistaWinForm\bin\Debug\net5.0-windows\Controlador.exe
+C:\Users\mathi\git\Programacion-III\VistaWinForm\bin\Debug\net5.0-windows\VistaWinForm.exe
+C:\Users\mathi\git\Programacion-III\VistaWinForm\bin\Debug\net5.0-windows\VistaWinForm.deps.json
+C:\Users\mathi\git\Programacion-III\VistaWinForm\bin\Debug\net5.0-windows\VistaWinForm.runtimeconfig.json
+C:\Users\mathi\git\Programacion-III\VistaWinForm\bin\Debug\net5.0-windows\VistaWinForm.runtimeconfig.dev.json
+C:\Users\mathi\git\Programacion-III\VistaWinForm\bin\Debug\net5.0-windows\VistaWinForm.dll
+C:\Users\mathi\git\Programacion-III\VistaWinForm\bin\Debug\net5.0-windows\ref\VistaWinForm.dll
+C:\Users\mathi\git\Programacion-III\VistaWinForm\bin\Debug\net5.0-windows\VistaWinForm.pdb
+C:\Users\mathi\git\Programacion-III\VistaWinForm\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\mathi\git\Programacion-III\VistaWinForm\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\mathi\git\Programacion-III\VistaWinForm\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\mathi\git\Programacion-III\VistaWinForm\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\mathi\git\Programacion-III\VistaWinForm\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mathi\git\Programacion-III\VistaWinForm\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mathi\git\Programacion-III\VistaWinForm\bin\Debug\net5.0-windows\Controlador.dll
+C:\Users\mathi\git\Programacion-III\VistaWinForm\bin\Debug\net5.0-windows\Modelo.dll
+C:\Users\mathi\git\Programacion-III\VistaWinForm\bin\Debug\net5.0-windows\Controlador.pdb
+C:\Users\mathi\git\Programacion-III\VistaWinForm\bin\Debug\net5.0-windows\Modelo.pdb
+C:\Users\mathi\git\Programacion-III\VistaWinForm\obj\Debug\net5.0-windows\VistaWinForm.csprojAssemblyReference.cache
+C:\Users\mathi\git\Programacion-III\VistaWinForm\obj\Debug\net5.0-windows\VistaWinForm.FrmAgegarArt.resources
+C:\Users\mathi\git\Programacion-III\VistaWinForm\obj\Debug\net5.0-windows\VistaWinForm.FrmEliminar.resources
+C:\Users\mathi\git\Programacion-III\VistaWinForm\obj\Debug\net5.0-windows\VistaWinForm.frmInicio.resources
+C:\Users\mathi\git\Programacion-III\VistaWinForm\obj\Debug\net5.0-windows\VistaWinForm.csproj.GenerateResource.cache
+C:\Users\mathi\git\Programacion-III\VistaWinForm\obj\Debug\net5.0-windows\VistaWinForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathi\git\Programacion-III\VistaWinForm\obj\Debug\net5.0-windows\VistaWinForm.AssemblyInfoInputs.cache
+C:\Users\mathi\git\Programacion-III\VistaWinForm\obj\Debug\net5.0-windows\VistaWinForm.AssemblyInfo.cs
+C:\Users\mathi\git\Programacion-III\VistaWinForm\obj\Debug\net5.0-windows\VistaWinForm.csproj.CoreCompileInputs.cache
+C:\Users\mathi\git\Programacion-III\VistaWinForm\obj\Debug\net5.0-windows\VistaWinForm.csproj.CopyComplete
+C:\Users\mathi\git\Programacion-III\VistaWinForm\obj\Debug\net5.0-windows\VistaWinForm.dll
+C:\Users\mathi\git\Programacion-III\VistaWinForm\obj\Debug\net5.0-windows\ref\VistaWinForm.dll
+C:\Users\mathi\git\Programacion-III\VistaWinForm\obj\Debug\net5.0-windows\VistaWinForm.pdb
+C:\Users\mathi\git\Programacion-III\VistaWinForm\obj\Debug\net5.0-windows\VistaWinForm.genruntimeconfig.cache

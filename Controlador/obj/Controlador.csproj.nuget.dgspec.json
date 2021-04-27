@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bitzer\\Documents\\2021\\Programcion III\\Actividad2\\Actividad2_2\\TP2\\Controlador\\Controlador.csproj": {}
+    "C:\\Users\\mathi\\git\\Programacion-III\\Controlador\\Controlador.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bitzer\\Documents\\2021\\Programcion III\\Actividad2\\Actividad2_2\\TP2\\Controlador\\Controlador.csproj": {
+    "C:\\Users\\mathi\\git\\Programacion-III\\Controlador\\Controlador.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bitzer\\Documents\\2021\\Programcion III\\Actividad2\\Actividad2_2\\TP2\\Controlador\\Controlador.csproj",
+        "projectUniqueName": "C:\\Users\\mathi\\git\\Programacion-III\\Controlador\\Controlador.csproj",
         "projectName": "Controlador",
-        "projectPath": "C:\\Users\\bitzer\\Documents\\2021\\Programcion III\\Actividad2\\Actividad2_2\\TP2\\Controlador\\Controlador.csproj",
-        "packagesPath": "C:\\Users\\bitzer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bitzer\\Documents\\2021\\Programcion III\\Actividad2\\Actividad2_2\\TP2\\Controlador\\obj\\",
+        "projectPath": "C:\\Users\\mathi\\git\\Programacion-III\\Controlador\\Controlador.csproj",
+        "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mathi\\git\\Programacion-III\\Controlador\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bitzer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\bitzer\\Documents\\2021\\Programcion III\\Actividad2\\Actividad2_2\\TP2\\Modelo\\Modelo.csproj": {
-                "projectPath": "C:\\Users\\bitzer\\Documents\\2021\\Programcion III\\Actividad2\\Actividad2_2\\TP2\\Modelo\\Modelo.csproj"
+              "C:\\Users\\mathi\\git\\Programacion-III\\Modelo\\Modelo.csproj": {
+                "projectPath": "C:\\Users\\mathi\\git\\Programacion-III\\Modelo\\Modelo.csproj"
               }
             }
           }
@@ -64,21 +64,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\bitzer\\Documents\\2021\\Programcion III\\Actividad2\\Actividad2_2\\TP2\\Modelo\\Modelo.csproj": {
+    "C:\\Users\\mathi\\git\\Programacion-III\\Modelo\\Modelo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bitzer\\Documents\\2021\\Programcion III\\Actividad2\\Actividad2_2\\TP2\\Modelo\\Modelo.csproj",
+        "projectUniqueName": "C:\\Users\\mathi\\git\\Programacion-III\\Modelo\\Modelo.csproj",
         "projectName": "Modelo",
-        "projectPath": "C:\\Users\\bitzer\\Documents\\2021\\Programcion III\\Actividad2\\Actividad2_2\\TP2\\Modelo\\Modelo.csproj",
-        "packagesPath": "C:\\Users\\bitzer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bitzer\\Documents\\2021\\Programcion III\\Actividad2\\Actividad2_2\\TP2\\Modelo\\obj\\",
+        "projectPath": "C:\\Users\\mathi\\git\\Programacion-III\\Modelo\\Modelo.csproj",
+        "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mathi\\git\\Programacion-III\\Modelo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bitzer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -118,7 +118,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

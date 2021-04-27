@@ -14,3 +14,19 @@ C:\Users\bitzer\Documents\2021\Programcion III\Actividad2\Actividad2_2\TP2\Model
 C:\Users\bitzer\Documents\2021\Programcion III\Actividad2\Actividad2_2\TP2\Modelo\obj\Debug\net5.0\ref\Modelo.dll
 C:\Users\bitzer\Documents\2021\Programcion III\Actividad2\Actividad2_2\TP2\Modelo\obj\Debug\net5.0\Modelo.pdb
 C:\Users\bitzer\Documents\2021\Programcion III\Actividad2\Actividad2_2\TP2\Modelo\obj\Debug\net5.0\Modelo.genruntimeconfig.cache
+C:\Users\mathi\git\Programacion-III\Modelo\bin\Debug\net5.0\Modelo.exe
+C:\Users\mathi\git\Programacion-III\Modelo\bin\Debug\net5.0\Modelo.deps.json
+C:\Users\mathi\git\Programacion-III\Modelo\bin\Debug\net5.0\Modelo.runtimeconfig.json
+C:\Users\mathi\git\Programacion-III\Modelo\bin\Debug\net5.0\Modelo.runtimeconfig.dev.json
+C:\Users\mathi\git\Programacion-III\Modelo\bin\Debug\net5.0\Modelo.dll
+C:\Users\mathi\git\Programacion-III\Modelo\bin\Debug\net5.0\ref\Modelo.dll
+C:\Users\mathi\git\Programacion-III\Modelo\bin\Debug\net5.0\Modelo.pdb
+C:\Users\mathi\git\Programacion-III\Modelo\obj\Debug\net5.0\Modelo.csprojAssemblyReference.cache
+C:\Users\mathi\git\Programacion-III\Modelo\obj\Debug\net5.0\Modelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathi\git\Programacion-III\Modelo\obj\Debug\net5.0\Modelo.AssemblyInfoInputs.cache
+C:\Users\mathi\git\Programacion-III\Modelo\obj\Debug\net5.0\Modelo.AssemblyInfo.cs
+C:\Users\mathi\git\Programacion-III\Modelo\obj\Debug\net5.0\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\mathi\git\Programacion-III\Modelo\obj\Debug\net5.0\Modelo.dll
+C:\Users\mathi\git\Programacion-III\Modelo\obj\Debug\net5.0\ref\Modelo.dll
+C:\Users\mathi\git\Programacion-III\Modelo\obj\Debug\net5.0\Modelo.pdb
+C:\Users\mathi\git\Programacion-III\Modelo\obj\Debug\net5.0\Modelo.genruntimeconfig.cache
