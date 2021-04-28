@@ -29,16 +29,16 @@ namespace VistaWinForm
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBoxURLImagen = new System.Windows.Forms.TextBox();
             this.lblUrlImagen = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxCategoria = new System.Windows.Forms.ComboBox();
+            this.comboBoxMarca = new System.Windows.Forms.ComboBox();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnAceptar = new System.Windows.Forms.Button();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxPrecio = new System.Windows.Forms.TextBox();
+            this.textBoxDescripcion = new System.Windows.Forms.TextBox();
+            this.textBoxCodigo = new System.Windows.Forms.TextBox();
+            this.textBoxNombre = new System.Windows.Forms.TextBox();
             this.lblPrecio = new System.Windows.Forms.Label();
             this.lblCategoria = new System.Windows.Forms.Label();
             this.lblMarca = new System.Windows.Forms.Label();
@@ -47,12 +47,12 @@ namespace VistaWinForm
             this.lblCodigo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // textBox4
+            // textBoxURLImagen
             // 
-            this.textBox4.Location = new System.Drawing.Point(255, 244);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(293, 23);
-            this.textBox4.TabIndex = 35;
+            this.textBoxURLImagen.Location = new System.Drawing.Point(255, 244);
+            this.textBoxURLImagen.Name = "textBoxURLImagen";
+            this.textBoxURLImagen.Size = new System.Drawing.Size(293, 23);
+            this.textBoxURLImagen.TabIndex = 35;
             // 
             // lblUrlImagen
             // 
@@ -63,21 +63,21 @@ namespace VistaWinForm
             this.lblUrlImagen.TabIndex = 34;
             this.lblUrlImagen.Text = "URL Imagen";
             // 
-            // comboBox2
+            // comboBoxCategoria
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(255, 169);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(293, 23);
-            this.comboBox2.TabIndex = 33;
+            this.comboBoxCategoria.FormattingEnabled = true;
+            this.comboBoxCategoria.Location = new System.Drawing.Point(255, 169);
+            this.comboBoxCategoria.Name = "comboBoxCategoria";
+            this.comboBoxCategoria.Size = new System.Drawing.Size(293, 23);
+            this.comboBoxCategoria.TabIndex = 33;
             // 
-            // comboBox1
+            // comboBoxMarca
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(255, 134);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(293, 23);
-            this.comboBox1.TabIndex = 32;
+            this.comboBoxMarca.FormattingEnabled = true;
+            this.comboBoxMarca.Location = new System.Drawing.Point(255, 134);
+            this.comboBoxMarca.Name = "comboBoxMarca";
+            this.comboBoxMarca.Size = new System.Drawing.Size(293, 23);
+            this.comboBoxMarca.TabIndex = 32;
             // 
             // btnCancelar
             // 
@@ -96,34 +96,37 @@ namespace VistaWinForm
             this.btnAceptar.TabIndex = 30;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
-            // textBox6
+            // textBoxPrecio
             // 
-            this.textBox6.Location = new System.Drawing.Point(255, 206);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(293, 23);
-            this.textBox6.TabIndex = 29;
+            this.textBoxPrecio.Cursor = System.Windows.Forms.Cursors.Default;
+            this.textBoxPrecio.Location = new System.Drawing.Point(255, 206);
+            this.textBoxPrecio.Name = "textBoxPrecio";
+            this.textBoxPrecio.Size = new System.Drawing.Size(293, 23);
+            this.textBoxPrecio.TabIndex = 29;
+            this.textBoxPrecio.Text = "0.000";
             // 
-            // textBox3
+            // textBoxDescripcion
             // 
-            this.textBox3.Location = new System.Drawing.Point(255, 100);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(293, 23);
-            this.textBox3.TabIndex = 28;
+            this.textBoxDescripcion.Location = new System.Drawing.Point(255, 100);
+            this.textBoxDescripcion.Name = "textBoxDescripcion";
+            this.textBoxDescripcion.Size = new System.Drawing.Size(293, 23);
+            this.textBoxDescripcion.TabIndex = 28;
             // 
-            // textBox2
+            // textBoxCodigo
             // 
-            this.textBox2.Location = new System.Drawing.Point(255, 26);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(293, 23);
-            this.textBox2.TabIndex = 27;
+            this.textBoxCodigo.Location = new System.Drawing.Point(255, 26);
+            this.textBoxCodigo.Name = "textBoxCodigo";
+            this.textBoxCodigo.Size = new System.Drawing.Size(293, 23);
+            this.textBoxCodigo.TabIndex = 27;
             // 
-            // textBox1
+            // textBoxNombre
             // 
-            this.textBox1.Location = new System.Drawing.Point(255, 58);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(293, 23);
-            this.textBox1.TabIndex = 26;
+            this.textBoxNombre.Location = new System.Drawing.Point(255, 58);
+            this.textBoxNombre.Name = "textBoxNombre";
+            this.textBoxNombre.Size = new System.Drawing.Size(293, 23);
+            this.textBoxNombre.TabIndex = 26;
             // 
             // lblPrecio
             // 
@@ -184,16 +187,16 @@ namespace VistaWinForm
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBoxURLImagen);
             this.Controls.Add(this.lblUrlImagen);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.comboBoxCategoria);
+            this.Controls.Add(this.comboBoxMarca);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAceptar);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxPrecio);
+            this.Controls.Add(this.textBoxDescripcion);
+            this.Controls.Add(this.textBoxCodigo);
+            this.Controls.Add(this.textBoxNombre);
             this.Controls.Add(this.lblPrecio);
             this.Controls.Add(this.lblCategoria);
             this.Controls.Add(this.lblMarca);
@@ -202,6 +205,7 @@ namespace VistaWinForm
             this.Controls.Add(this.lblCodigo);
             this.Name = "FrmAgegarArt";
             this.Text = "FrmAgegarArt";
+            this.Load += new System.EventHandler(this.FrmAgegarArt_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -209,16 +213,16 @@ namespace VistaWinForm
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBoxURLImagen;
         private System.Windows.Forms.Label lblUrlImagen;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBoxCategoria;
+        private System.Windows.Forms.ComboBox comboBoxMarca;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnAceptar;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxPrecio;
+        private System.Windows.Forms.TextBox textBoxDescripcion;
+        private System.Windows.Forms.TextBox textBoxCodigo;
+        private System.Windows.Forms.TextBox textBoxNombre;
         private System.Windows.Forms.Label lblPrecio;
         private System.Windows.Forms.Label lblCategoria;
         private System.Windows.Forms.Label lblMarca;

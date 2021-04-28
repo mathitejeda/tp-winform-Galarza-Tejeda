@@ -58,6 +58,7 @@ namespace Controlador
 
 
         }
+
         public List<Articulo> listar2()
         {
             List<Articulo> lista = new List<Articulo>();
@@ -96,5 +97,23 @@ namespace Controlador
 
         }
 
+        public void agregar(Articulo nuevo)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                string consulta = "insert into ARTICULOS values('" + nuevo.codigo + "','" + nuevo.nombre + "','" + nuevo.descripcion + "'," + nuevo.marca1.ID +"," + nuevo.categoria1.ID + ",'" + nuevo.imagenUrl + "'," + nuevo.precio + ")";
+                datos.setConsulta(consulta);
+                datos.ejecutarAccion();
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
     }
 }

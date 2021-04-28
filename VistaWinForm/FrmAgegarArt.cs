@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Controlador;
+using Modelo;
 
 namespace VistaWinForm
 {
@@ -15,6 +17,45 @@ namespace VistaWinForm
         public FrmAgegarArt()
         {
             InitializeComponent();
+        }
+
+        private void FrmAgegarArt_Load(object sender, EventArgs e)
+        {
+            MarcaNegocio marcanegocio = new MarcaNegocio();
+            CategoriaNegocio categoriaNegocio = new CategoriaNegocio();
+            try
+            {
+                comboBoxMarca.DataSource = marcanegocio.listar();
+                comboBoxCategoria.DataSource = categoriaNegocio.listar();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+        }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+            Articulo nuevo = new Articulo();
+            ArticuloNegocio artNegocio = new ArticuloNegocio();
+            try
+            {
+                nuevo.codigo = textBoxCodigo.Text;
+                nuevo.nombre = textBoxNombre.Text;
+                nuevo.descripcion = textBoxDescripcion.Text;
+                nuevo.marca1 = (Marca)comboBoxMarca.SelectedItem;
+                nuevo.categoria1 = (Categoria)comboBoxCategoria.SelectedItem;
+                nuevo.precio = decimal.Parse(textBoxPrecio.Text);
+                nuevo.imagenUrl = textBoxURLImagen.Text;
+
+                artNegocio.agregar(nuevo);
+                MessageBox.Show("Articulo agregado.");
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+
         }
     }
 }

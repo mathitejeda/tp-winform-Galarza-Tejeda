@@ -22,6 +22,12 @@ namespace VistaWinForm
 
         private void frmInicio_Load(object sender, EventArgs e)
         {
+            cargarGrilla();
+        }
+
+
+        private void cargarGrilla()
+        {
             ArticuloNegocio articulonegocio = new ArticuloNegocio();
 
 
@@ -49,7 +55,8 @@ namespace VistaWinForm
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             FrmAgegarArt agregar = new FrmAgegarArt();
-            agregar.Show();
+            agregar.ShowDialog();
+            cargarGrilla();
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)

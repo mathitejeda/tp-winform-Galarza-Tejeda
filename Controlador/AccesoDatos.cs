@@ -40,5 +40,12 @@ namespace Controlador
         {
             get { return lector; }
         }
+
+        internal void ejecutarAccion()
+        {
+            comando.Connection = conexion;
+            conexion.Open();
+            comando.ExecuteNonQuery();
+        }
     }
 }

@@ -18,5 +18,8 @@ namespace Modelo
         public decimal precio { get; set; }
         public String marca { get; set; }
         public String categoria { get; set; }
+
+        public Marca marca1 { get; set; }
+        public Categoria categoria1 { get; set; }
     }
 }
