@@ -52,7 +52,7 @@ namespace VistaWinForm
             this.textBoxURLImagen.Location = new System.Drawing.Point(255, 244);
             this.textBoxURLImagen.Name = "textBoxURLImagen";
             this.textBoxURLImagen.Size = new System.Drawing.Size(293, 23);
-            this.textBoxURLImagen.TabIndex = 35;
+            this.textBoxURLImagen.TabIndex = 32;
             // 
             // lblUrlImagen
             // 
@@ -69,7 +69,7 @@ namespace VistaWinForm
             this.comboBoxCategoria.Location = new System.Drawing.Point(255, 169);
             this.comboBoxCategoria.Name = "comboBoxCategoria";
             this.comboBoxCategoria.Size = new System.Drawing.Size(293, 23);
-            this.comboBoxCategoria.TabIndex = 33;
+            this.comboBoxCategoria.TabIndex = 30;
             // 
             // comboBoxMarca
             // 
@@ -77,23 +77,24 @@ namespace VistaWinForm
             this.comboBoxMarca.Location = new System.Drawing.Point(255, 134);
             this.comboBoxMarca.Name = "comboBoxMarca";
             this.comboBoxMarca.Size = new System.Drawing.Size(293, 23);
-            this.comboBoxMarca.TabIndex = 32;
+            this.comboBoxMarca.TabIndex = 29;
             // 
             // btnCancelar
             // 
             this.btnCancelar.Location = new System.Drawing.Point(405, 301);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
-            this.btnCancelar.TabIndex = 31;
+            this.btnCancelar.TabIndex = 34;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnAceptar
             // 
             this.btnAceptar.Location = new System.Drawing.Point(255, 301);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(75, 23);
-            this.btnAceptar.TabIndex = 30;
+            this.btnAceptar.TabIndex = 33;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
@@ -104,8 +105,7 @@ namespace VistaWinForm
             this.textBoxPrecio.Location = new System.Drawing.Point(255, 206);
             this.textBoxPrecio.Name = "textBoxPrecio";
             this.textBoxPrecio.Size = new System.Drawing.Size(293, 23);
-            this.textBoxPrecio.TabIndex = 29;
-            this.textBoxPrecio.Text = "0.000";
+            this.textBoxPrecio.TabIndex = 31;
             // 
             // textBoxDescripcion
             // 
@@ -116,17 +116,17 @@ namespace VistaWinForm
             // 
             // textBoxCodigo
             // 
-            this.textBoxCodigo.Location = new System.Drawing.Point(255, 26);
+            this.textBoxCodigo.Location = new System.Drawing.Point(255, 27);
             this.textBoxCodigo.Name = "textBoxCodigo";
             this.textBoxCodigo.Size = new System.Drawing.Size(293, 23);
-            this.textBoxCodigo.TabIndex = 27;
+            this.textBoxCodigo.TabIndex = 26;
             // 
             // textBoxNombre
             // 
             this.textBoxNombre.Location = new System.Drawing.Point(255, 58);
             this.textBoxNombre.Name = "textBoxNombre";
             this.textBoxNombre.Size = new System.Drawing.Size(293, 23);
-            this.textBoxNombre.TabIndex = 26;
+            this.textBoxNombre.TabIndex = 27;
             // 
             // lblPrecio
             // 

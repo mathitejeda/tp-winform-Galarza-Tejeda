@@ -52,6 +52,32 @@ namespace VistaWinForm
             }
         }
 
+        private void cargarGrilla(string criterio, string busqueda)
+        {
+            ArticuloNegocio articulonegocio = new ArticuloNegocio();
+
+
+            try
+            {
+                listaArticulo = articulonegocio.listarResultado(criterio,busqueda);
+                list.DataSource = listaArticulo;
+                list.Columns["ID"].Visible = false;
+                list.Columns["Codigo"].Visible = false;
+                list.Columns["Precio"].Visible = false;
+                list.Columns["Idmarca"].Visible = false;
+                list.Columns["IdCategoria"].Visible = false;
+                list.Columns["ImagenUrl"].Visible = false;
+
+
+                RecargarImg(listaArticulo[0].imagenUrl);
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+        }
+
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             FrmAgegarArt agregar = new FrmAgegarArt();
@@ -90,6 +116,12 @@ namespace VistaWinForm
         private void pbxArticulo_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+            string busqueda = textBoxBusqueda.Text;
+            cargarGrilla("A.nombre", busqueda);
         }
     }
 }

@@ -36,7 +36,7 @@ namespace VistaWinForm
             this.btnAceptar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.lblBuscar = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxBusqueda = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbxArticulo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.list)).BeginInit();
             this.SuspendLayout();
@@ -89,6 +89,7 @@ namespace VistaWinForm
             this.btnAceptar.TabIndex = 12;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // btnAgregar
             // 
@@ -109,12 +110,12 @@ namespace VistaWinForm
             this.lblBuscar.TabIndex = 10;
             this.lblBuscar.Text = "Buscar";
             // 
-            // textBox1
+            // textBoxBusqueda
             // 
-            this.textBox1.Location = new System.Drawing.Point(112, 47);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(261, 23);
-            this.textBox1.TabIndex = 9;
+            this.textBoxBusqueda.Location = new System.Drawing.Point(112, 47);
+            this.textBoxBusqueda.Name = "textBoxBusqueda";
+            this.textBoxBusqueda.Size = new System.Drawing.Size(261, 23);
+            this.textBoxBusqueda.TabIndex = 9;
             // 
             // frmInicio
             // 
@@ -128,7 +129,7 @@ namespace VistaWinForm
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.lblBuscar);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxBusqueda);
             this.Name = "frmInicio";
             this.Text = "Bienvenido";
             this.Load += new System.EventHandler(this.frmInicio_Load);
@@ -148,7 +149,7 @@ namespace VistaWinForm
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Label lblBuscar;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxBusqueda;
     }
 }
 

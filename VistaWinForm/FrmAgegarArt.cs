@@ -57,5 +57,13 @@ namespace VistaWinForm
             }
 
         }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            if(DialogResult.OK == MessageBox.Show("Seguro queres salir? Vas a perder todos los cambios","Seguro queres salir?",MessageBoxButtons.OKCancel))
+            {
+                FrmAgegarArt.ActiveForm.Close();
+            }
+        }
     }
 }
