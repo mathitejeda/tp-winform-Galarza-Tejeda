@@ -43,8 +43,8 @@ namespace VistaWinForm
                 nuevo.codigo = textBoxCodigo.Text;
                 nuevo.nombre = textBoxNombre.Text;
                 nuevo.descripcion = textBoxDescripcion.Text;
-                nuevo.marca1 = (Marca)comboBoxMarca.SelectedItem;
-                nuevo.categoria1 = (Categoria)comboBoxCategoria.SelectedItem;
+                nuevo.marca = (Marca)comboBoxMarca.SelectedItem;
+                nuevo.categoria = (Categoria)comboBoxCategoria.SelectedItem;
                 nuevo.precio = decimal.Parse(textBoxPrecio.Text);
                 nuevo.imagenUrl = textBoxURLImagen.Text;
 

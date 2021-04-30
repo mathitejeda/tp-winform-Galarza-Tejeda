@@ -33,7 +33,6 @@ namespace VistaWinForm
             this.list = new System.Windows.Forms.DataGridView();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnModificar = new System.Windows.Forms.Button();
-            this.btnAceptar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.lblBuscar = new System.Windows.Forms.Label();
             this.textBoxBusqueda = new System.Windows.Forms.TextBox();
@@ -43,7 +42,7 @@ namespace VistaWinForm
             // 
             // pbxArticulo
             // 
-            this.pbxArticulo.Location = new System.Drawing.Point(505, 100);
+            this.pbxArticulo.Location = new System.Drawing.Point(505, 106);
             this.pbxArticulo.Name = "pbxArticulo";
             this.pbxArticulo.Size = new System.Drawing.Size(240, 170);
             this.pbxArticulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -55,7 +54,7 @@ namespace VistaWinForm
             // 
             this.list.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.list.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.list.Location = new System.Drawing.Point(53, 100);
+            this.list.Location = new System.Drawing.Point(53, 106);
             this.list.Name = "list";
             this.list.RowTemplate.Height = 25;
             this.list.Size = new System.Drawing.Size(429, 170);
@@ -64,7 +63,7 @@ namespace VistaWinForm
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(327, 294);
+            this.btnEliminar.Location = new System.Drawing.Point(327, 300);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 23);
             this.btnEliminar.TabIndex = 14;
@@ -74,26 +73,16 @@ namespace VistaWinForm
             // 
             // btnModificar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(207, 294);
+            this.btnModificar.Location = new System.Drawing.Point(207, 300);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(75, 23);
             this.btnModificar.TabIndex = 13;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
             // 
-            // btnAceptar
-            // 
-            this.btnAceptar.Location = new System.Drawing.Point(407, 47);
-            this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(75, 23);
-            this.btnAceptar.TabIndex = 12;
-            this.btnAceptar.Text = "Aceptar";
-            this.btnAceptar.UseVisualStyleBackColor = true;
-            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
-            // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(82, 294);
+            this.btnAgregar.Location = new System.Drawing.Point(82, 300);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(75, 23);
             this.btnAgregar.TabIndex = 11;
@@ -112,10 +101,11 @@ namespace VistaWinForm
             // 
             // textBoxBusqueda
             // 
-            this.textBoxBusqueda.Location = new System.Drawing.Point(112, 47);
+            this.textBoxBusqueda.Location = new System.Drawing.Point(101, 47);
             this.textBoxBusqueda.Name = "textBoxBusqueda";
-            this.textBoxBusqueda.Size = new System.Drawing.Size(261, 23);
+            this.textBoxBusqueda.Size = new System.Drawing.Size(381, 23);
             this.textBoxBusqueda.TabIndex = 9;
+            this.textBoxBusqueda.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBoxBusqueda_KeyUp);
             // 
             // frmInicio
             // 
@@ -126,7 +116,6 @@ namespace VistaWinForm
             this.Controls.Add(this.list);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnModificar);
-            this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.lblBuscar);
             this.Controls.Add(this.textBoxBusqueda);
@@ -146,7 +135,6 @@ namespace VistaWinForm
         private System.Windows.Forms.DataGridView list;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnModificar;
-        private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Label lblBuscar;
         private System.Windows.Forms.TextBox textBoxBusqueda;

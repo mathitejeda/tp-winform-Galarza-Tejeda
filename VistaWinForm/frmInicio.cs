@@ -29,46 +29,11 @@ namespace VistaWinForm
         private void cargarGrilla()
         {
             ArticuloNegocio articulonegocio = new ArticuloNegocio();
-
-
             try
             {
                 listaArticulo = articulonegocio.listar2();
                 list.DataSource = listaArticulo;
-                list.Columns["ID"].Visible = false;
-                list.Columns["Codigo"].Visible = false;
-                list.Columns["Precio"].Visible = false;
-                list.Columns["Idmarca"].Visible = false;
-                list.Columns["IdCategoria"].Visible = false;
-                list.Columns["ImagenUrl"].Visible = false;
-
-
-                RecargarImg(listaArticulo[0].imagenUrl);
-            }
-            catch (Exception ex)
-            {
-
-                MessageBox.Show(ex.Message);
-            }
-        }
-
-        private void cargarGrilla(string criterio, string busqueda)
-        {
-            ArticuloNegocio articulonegocio = new ArticuloNegocio();
-
-
-            try
-            {
-                listaArticulo = articulonegocio.listarResultado(criterio,busqueda);
-                list.DataSource = listaArticulo;
-                list.Columns["ID"].Visible = false;
-                list.Columns["Codigo"].Visible = false;
-                list.Columns["Precio"].Visible = false;
-                list.Columns["Idmarca"].Visible = false;
-                list.Columns["IdCategoria"].Visible = false;
-                list.Columns["ImagenUrl"].Visible = false;
-
-
+                ocultarColumnas();
                 RecargarImg(listaArticulo[0].imagenUrl);
             }
             catch (Exception ex)
@@ -103,7 +68,6 @@ namespace VistaWinForm
                 pbxArticulo.Load("https://www.cuestalibros.com/content/images/thumbs/default-image_550.png");
                 MessageBox.Show(ex1.Message);
                 //throw ex;
-
             }
         }
 
@@ -118,10 +82,42 @@ namespace VistaWinForm
 
         }
 
-        private void btnAceptar_Click(object sender, EventArgs e)
+        private void textBoxBusqueda_KeyUp(object sender, KeyEventArgs e)
         {
-            string busqueda = textBoxBusqueda.Text;
-            cargarGrilla("A.nombre", busqueda);
+            if(textBoxBusqueda.Text != "" && textBoxBusqueda.Text.Length >= 2)
+            {
+                List<Articulo> listaFiltrada= listaArticulo.FindAll(X =>
+                X.codigo.ToUpper().Contains(textBoxBusqueda.Text.ToUpper()) ||
+                X.nombre.ToUpper().Contains(textBoxBusqueda.Text.ToUpper()) ||
+                X.marca.Nombre.ToUpper().Contains(textBoxBusqueda.Text.ToUpper()) ||
+                X.categoria.Nombre.ToUpper().Contains(textBoxBusqueda.Text.ToUpper())
+                ) ;
+                list.DataSource = null;
+                list.DataSource = listaFiltrada;
+                if (listaFiltrada.Count != 0)
+                {
+                    RecargarImg(listaFiltrada[0].imagenUrl);
+                }
+                else
+                {
+                    pbxArticulo.Image = null;
+                }
+            }
+            else
+            {
+                list.DataSource = null;
+                list.DataSource = listaArticulo;
+                RecargarImg(listaArticulo[0].imagenUrl);
+            }
+            ocultarColumnas();
+        }
+        private void ocultarColumnas()
+        {
+            list.Columns["ID"].Visible = false;
+            list.Columns["Precio"].Visible = false;
+            list.Columns["Idmarca"].Visible = false;
+            list.Columns["IdCategoria"].Visible = false;
+            list.Columns["ImagenUrl"].Visible = false;
         }
     }
 }

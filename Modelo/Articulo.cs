@@ -16,10 +16,7 @@ namespace Modelo
         public int idCategoria { get; set; }
         public String imagenUrl { get; set; }
         public decimal precio { get; set; }
-        public String marca { get; set; }
-        public String categoria { get; set; }
-
-        public Marca marca1 { get; set; }
-        public Categoria categoria1 { get; set; }
+        public Marca marca { get; set; }
+        public Categoria categoria { get; set; }
     }
 }
