@@ -14,10 +14,20 @@ namespace VistaWinForm
 {
     public partial class FrmAgegarArt : Form
     {
+        
+        private Articulo articulo = null;
+
         public FrmAgegarArt()
         {
             InitializeComponent();
         }
+        public FrmAgegarArt(Articulo articulo)
+        {
+            InitializeComponent();
+            this.articulo = articulo;
+            Text = "Modificar Articulo";
+        }
+        
 
         private void FrmAgegarArt_Load(object sender, EventArgs e)
         {
@@ -27,6 +37,25 @@ namespace VistaWinForm
             {
                 comboBoxMarca.DataSource = marcanegocio.listar();
                 comboBoxCategoria.DataSource = categoriaNegocio.listar();
+                comboBoxMarca.ValueMember = "id";
+                comboBoxMarca.DisplayMember = "Nombre";
+                comboBoxCategoria.ValueMember = "id";
+                comboBoxCategoria.DisplayMember = "Nombre";
+
+                if(articulo != null)
+                {
+                    textBoxNombre.Text = articulo.nombre;
+                    textBoxDescripcion.Text = articulo.descripcion;
+                    textBoxURLImagen.Text = articulo.imagenUrl;
+                    textBoxCodigo.Text = articulo.codigo;
+                    comboBoxMarca.SelectedValue = articulo.idMarca;
+                    comboBoxCategoria.SelectedValue = articulo.idCategoria;    
+                    textBoxPrecio.Text = Convert.ToString(articulo.precio);
+                                    
+                        
+
+
+                }
             }
             catch(Exception ex)
             {
@@ -36,23 +65,41 @@ namespace VistaWinForm
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            Articulo nuevo = new Articulo();
+            //Articulo nuevo = new Articulo();
             ArticuloNegocio artNegocio = new ArticuloNegocio();
             try
             {
-                nuevo.codigo = textBoxCodigo.Text;
-                nuevo.nombre = textBoxNombre.Text;
-                nuevo.descripcion = textBoxDescripcion.Text;
-                nuevo.marca = (Marca)comboBoxMarca.SelectedItem;
-                nuevo.categoria = (Categoria)comboBoxCategoria.SelectedItem;
-                nuevo.precio = decimal.Parse(textBoxPrecio.Text);
-                nuevo.imagenUrl = textBoxURLImagen.Text;
+                if (articulo == null)
+                    articulo = new Articulo();
+                articulo.codigo = textBoxCodigo.Text;
+                articulo.nombre = textBoxNombre.Text;
+                articulo.descripcion = textBoxDescripcion.Text;
+                articulo.marca = (Marca)comboBoxMarca.SelectedItem;
+                articulo.categoria = (Categoria)comboBoxCategoria.SelectedItem;
+                articulo.precio = decimal.Parse(textBoxPrecio.Text);
+                articulo.imagenUrl = textBoxURLImagen.Text;
+                articulo.idCategoria = Convert.ToInt32(comboBoxCategoria.SelectedValue);
+                //articulo.idCategoria = Convert.ToInt32(Convert.ToString((Categoria)comboBoxCategoria.SelectedValue));
+                articulo.idMarca = Convert.ToInt32(comboBoxCategoria.SelectedValue);
 
-                artNegocio.agregar(nuevo);
-                MessageBox.Show("Articulo agregado.");
+                if (articulo.id == 0)
+                {
+                    artNegocio.agregar(articulo);
+                    MessageBox.Show("Se agrego correctamente");
+                              
+
+                }
+                else
+                {
+                    artNegocio.modificar(articulo);
+                    MessageBox.Show("Se modifico correctamente");
+                }
+
+                Close();
             }
             catch(Exception ex)
             {
+                
                 MessageBox.Show(ex.ToString());
             }
 
@@ -64,6 +111,35 @@ namespace VistaWinForm
             {
                 FrmAgegarArt.ActiveForm.Close();
             }
+        }
+         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void RecargarImg(string img)
+        {
+            try
+            {
+                pbxImagen.Load(img);
+            }
+            catch (Exception ex1)
+            {
+                MessageBox.Show(ex1.Message);
+            }
+        }
+        private void textBoxURLImagen_TextChanged(object sender, EventArgs e)
+        {
+          RecargarImg(textBoxURLImagen.Text);
+        }
+
+        private void comboBoxMarca_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxPrecio_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

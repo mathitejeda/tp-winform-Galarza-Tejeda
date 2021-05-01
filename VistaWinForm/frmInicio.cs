@@ -31,7 +31,7 @@ namespace VistaWinForm
             ArticuloNegocio articulonegocio = new ArticuloNegocio();
             try
             {
-                listaArticulo = articulonegocio.listar2();
+                listaArticulo = articulonegocio.Listar();
                 list.DataSource = listaArticulo;
                 ocultarColumnas();
                 RecargarImg(listaArticulo[0].imagenUrl);
@@ -52,8 +52,21 @@ namespace VistaWinForm
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            FrmEliminar eliminar = new FrmEliminar();
-            eliminar.Show();
+            Articulo seleccionado = (Articulo)list.CurrentRow.DataBoundItem;
+            ArticuloNegocio negocio = new ArticuloNegocio();
+            try
+            {
+                if(MessageBox.Show("¿Esta seguro de eliminar?", "Eliminando", MessageBoxButtons.YesNo, MessageBoxIcon.Question)== DialogResult.Yes)
+                {
+                    ArticuloNegocio articulonegocio = new ArticuloNegocio();
+                    articulonegocio.eliminar(seleccionado.id);
+                    cargarGrilla();
+                }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
         private void RecargarImg(string img)
         {
@@ -118,6 +131,15 @@ namespace VistaWinForm
             list.Columns["Idmarca"].Visible = false;
             list.Columns["IdCategoria"].Visible = false;
             list.Columns["ImagenUrl"].Visible = false;
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            Articulo seleccionado = (Articulo)list.CurrentRow.DataBoundItem;
+            FrmAgegarArt modificar = new FrmAgegarArt(seleccionado);
+            modificar.ShowDialog();
+            cargarGrilla();
+
         }
     }
 }

@@ -45,6 +45,8 @@ namespace VistaWinForm
             this.lblDescripcion = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
             this.lblCodigo = new System.Windows.Forms.Label();
+            this.pbxImagen = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxImagen)).BeginInit();
             this.SuspendLayout();
             // 
             // textBoxURLImagen
@@ -53,6 +55,7 @@ namespace VistaWinForm
             this.textBoxURLImagen.Name = "textBoxURLImagen";
             this.textBoxURLImagen.Size = new System.Drawing.Size(293, 23);
             this.textBoxURLImagen.TabIndex = 32;
+            this.textBoxURLImagen.TextChanged += new System.EventHandler(this.textBoxURLImagen_TextChanged);
             // 
             // lblUrlImagen
             // 
@@ -78,6 +81,7 @@ namespace VistaWinForm
             this.comboBoxMarca.Name = "comboBoxMarca";
             this.comboBoxMarca.Size = new System.Drawing.Size(293, 23);
             this.comboBoxMarca.TabIndex = 29;
+            this.comboBoxMarca.SelectedIndexChanged += new System.EventHandler(this.comboBoxMarca_SelectedIndexChanged);
             // 
             // btnCancelar
             // 
@@ -106,6 +110,7 @@ namespace VistaWinForm
             this.textBoxPrecio.Name = "textBoxPrecio";
             this.textBoxPrecio.Size = new System.Drawing.Size(293, 23);
             this.textBoxPrecio.TabIndex = 31;
+            this.textBoxPrecio.TextChanged += new System.EventHandler(this.textBoxPrecio_TextChanged);
             // 
             // textBoxDescripcion
             // 
@@ -182,11 +187,22 @@ namespace VistaWinForm
             this.lblCodigo.TabIndex = 20;
             this.lblCodigo.Text = "Codigo";
             // 
+            // pbxImagen
+            // 
+            this.pbxImagen.Location = new System.Drawing.Point(619, 31);
+            this.pbxImagen.Name = "pbxImagen";
+            this.pbxImagen.Size = new System.Drawing.Size(195, 212);
+            this.pbxImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxImagen.TabIndex = 35;
+            this.pbxImagen.TabStop = false;
+            this.pbxImagen.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // FrmAgegarArt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(895, 612);
+            this.Controls.Add(this.pbxImagen);
             this.Controls.Add(this.textBoxURLImagen);
             this.Controls.Add(this.lblUrlImagen);
             this.Controls.Add(this.comboBoxCategoria);
@@ -206,6 +222,7 @@ namespace VistaWinForm
             this.Name = "FrmAgegarArt";
             this.Text = "FrmAgegarArt";
             this.Load += new System.EventHandler(this.FrmAgegarArt_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pbxImagen)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -229,5 +246,6 @@ namespace VistaWinForm
         private System.Windows.Forms.Label lblDescripcion;
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.Label lblCodigo;
+        private System.Windows.Forms.PictureBox pbxImagen;
     }
 }

@@ -30,3 +30,19 @@ C:\Users\mathi\git\Programacion-III\Modelo\obj\Debug\net5.0\Modelo.dll
 C:\Users\mathi\git\Programacion-III\Modelo\obj\Debug\net5.0\ref\Modelo.dll
 C:\Users\mathi\git\Programacion-III\Modelo\obj\Debug\net5.0\Modelo.pdb
 C:\Users\mathi\git\Programacion-III\Modelo\obj\Debug\net5.0\Modelo.genruntimeconfig.cache
+C:\Users\bitzer\Documents\2021\Programcion III 30-04-21 20-41hs\Programacion-III-master\Modelo\bin\Debug\net5.0\Modelo.exe
+C:\Users\bitzer\Documents\2021\Programcion III 30-04-21 20-41hs\Programacion-III-master\Modelo\bin\Debug\net5.0\Modelo.deps.json
+C:\Users\bitzer\Documents\2021\Programcion III 30-04-21 20-41hs\Programacion-III-master\Modelo\bin\Debug\net5.0\Modelo.runtimeconfig.json
+C:\Users\bitzer\Documents\2021\Programcion III 30-04-21 20-41hs\Programacion-III-master\Modelo\bin\Debug\net5.0\Modelo.runtimeconfig.dev.json
+C:\Users\bitzer\Documents\2021\Programcion III 30-04-21 20-41hs\Programacion-III-master\Modelo\bin\Debug\net5.0\Modelo.dll
+C:\Users\bitzer\Documents\2021\Programcion III 30-04-21 20-41hs\Programacion-III-master\Modelo\bin\Debug\net5.0\ref\Modelo.dll
+C:\Users\bitzer\Documents\2021\Programcion III 30-04-21 20-41hs\Programacion-III-master\Modelo\bin\Debug\net5.0\Modelo.pdb
+C:\Users\bitzer\Documents\2021\Programcion III 30-04-21 20-41hs\Programacion-III-master\Modelo\obj\Debug\net5.0\Modelo.csprojAssemblyReference.cache
+C:\Users\bitzer\Documents\2021\Programcion III 30-04-21 20-41hs\Programacion-III-master\Modelo\obj\Debug\net5.0\Modelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bitzer\Documents\2021\Programcion III 30-04-21 20-41hs\Programacion-III-master\Modelo\obj\Debug\net5.0\Modelo.AssemblyInfoInputs.cache
+C:\Users\bitzer\Documents\2021\Programcion III 30-04-21 20-41hs\Programacion-III-master\Modelo\obj\Debug\net5.0\Modelo.AssemblyInfo.cs
+C:\Users\bitzer\Documents\2021\Programcion III 30-04-21 20-41hs\Programacion-III-master\Modelo\obj\Debug\net5.0\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\bitzer\Documents\2021\Programcion III 30-04-21 20-41hs\Programacion-III-master\Modelo\obj\Debug\net5.0\Modelo.dll
+C:\Users\bitzer\Documents\2021\Programcion III 30-04-21 20-41hs\Programacion-III-master\Modelo\obj\Debug\net5.0\ref\Modelo.dll
+C:\Users\bitzer\Documents\2021\Programcion III 30-04-21 20-41hs\Programacion-III-master\Modelo\obj\Debug\net5.0\Modelo.pdb
+C:\Users\bitzer\Documents\2021\Programcion III 30-04-21 20-41hs\Programacion-III-master\Modelo\obj\Debug\net5.0\Modelo.genruntimeconfig.cache

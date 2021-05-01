@@ -22,6 +22,10 @@ namespace Controlador
             comando.CommandType = System.Data.CommandType.Text;
             comando.CommandText = consulta;
         }
+        public void setParametro(string nombre, object valor)
+        {
+            comando.Parameters.AddWithValue(nombre, valor);
+        }
         public void ejecutarLectura()
         {
             comando.Connection = conexion;
