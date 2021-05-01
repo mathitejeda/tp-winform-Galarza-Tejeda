@@ -51,10 +51,7 @@ namespace VistaWinForm
                     comboBoxMarca.SelectedValue = articulo.idMarca;
                     comboBoxCategoria.SelectedValue = articulo.idCategoria;    
                     textBoxPrecio.Text = Convert.ToString(articulo.precio);
-                                    
-                        
-
-
+                    RecargarImg(textBoxURLImagen.Text);
                 }
             }
             catch(Exception ex)
@@ -99,7 +96,6 @@ namespace VistaWinForm
             }
             catch(Exception ex)
             {
-                
                 MessageBox.Show(ex.ToString());
             }
 
@@ -129,7 +125,7 @@ namespace VistaWinForm
         }
         private void textBoxURLImagen_TextChanged(object sender, EventArgs e)
         {
-          RecargarImg(textBoxURLImagen.Text);
+            //RecargarImg(textBoxURLImagen.Text);
         }
 
         private void comboBoxMarca_SelectedIndexChanged(object sender, EventArgs e)
@@ -140,6 +136,14 @@ namespace VistaWinForm
         private void textBoxPrecio_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBoxURLImagen_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                RecargarImg(textBoxURLImagen.Text);
+            }
         }
     }
 }

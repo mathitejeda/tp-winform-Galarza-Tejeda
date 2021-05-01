@@ -92,7 +92,6 @@ namespace VistaWinForm
 
         private void pbxArticulo_Click(object sender, EventArgs e)
         {
-
         }
 
         private void textBoxBusqueda_KeyUp(object sender, KeyEventArgs e)
@@ -139,7 +138,6 @@ namespace VistaWinForm
             FrmAgegarArt modificar = new FrmAgegarArt(seleccionado);
             modificar.ShowDialog();
             cargarGrilla();
-
         }
     }
 }

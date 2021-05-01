@@ -56,6 +56,7 @@ namespace VistaWinForm
             this.textBoxURLImagen.Size = new System.Drawing.Size(293, 23);
             this.textBoxURLImagen.TabIndex = 32;
             this.textBoxURLImagen.TextChanged += new System.EventHandler(this.textBoxURLImagen_TextChanged);
+            this.textBoxURLImagen.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxURLImagen_KeyDown);
             // 
             // lblUrlImagen
             // 
