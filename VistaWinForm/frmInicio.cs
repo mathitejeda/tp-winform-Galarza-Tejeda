@@ -56,7 +56,7 @@ namespace VistaWinForm
             ArticuloNegocio negocio = new ArticuloNegocio();
             try
             {
-                if(MessageBox.Show("¿Esta seguro de eliminar?", "Eliminando", MessageBoxButtons.YesNo, MessageBoxIcon.Question)== DialogResult.Yes)
+                if(MessageBox.Show("¿Esta seguro de que desea eliminar?", "Eliminando", MessageBoxButtons.YesNo, MessageBoxIcon.Question)== DialogResult.Yes)
                 {
                     ArticuloNegocio articulonegocio = new ArticuloNegocio();
                     articulonegocio.eliminar(seleccionado.id);
