@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Uo//lOzIzsS1NxCYYMb33eTfXRNJgSlm5KtENoV5Fl9dAVlOwRkYFZng10QEuVYIZsbNZcpwlR8bXOXi0+oNtg==",
+  "dgSpecHash": "Htkfr+82th4ed47XfRzhD7CK8V9Qvfd35WXmPyH+xMZojp7A70BTTbRjr8NCA9adHCKeNQoMFwgr3juMp56jvQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mathi\\git\\Programacion-III\\VistaWinForm\\VistaWinForm.csproj",
+  "projectFilePath": "C:\\Users\\mathi\\git\\tp-winform-Galarza-Tejeda\\VistaWinForm\\VistaWinForm.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mathi\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\mathi\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

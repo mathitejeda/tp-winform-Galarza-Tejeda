@@ -494,11 +494,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mathi\\git\\Programacion-III\\VistaWinForm\\VistaWinForm.csproj",
+      "projectUniqueName": "C:\\Users\\mathi\\git\\tp-winform-Galarza-Tejeda\\VistaWinForm\\VistaWinForm.csproj",
       "projectName": "VistaWinForm",
-      "projectPath": "C:\\Users\\mathi\\git\\Programacion-III\\VistaWinForm\\VistaWinForm.csproj",
+      "projectPath": "C:\\Users\\mathi\\git\\tp-winform-Galarza-Tejeda\\VistaWinForm\\VistaWinForm.csproj",
       "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mathi\\git\\Programacion-III\\VistaWinForm\\obj\\",
+      "outputPath": "C:\\Users\\mathi\\git\\tp-winform-Galarza-Tejeda\\VistaWinForm\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -515,11 +515,11 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\mathi\\git\\Programacion-III\\Controlador\\Controlador.csproj": {
-              "projectPath": "C:\\Users\\mathi\\git\\Programacion-III\\Controlador\\Controlador.csproj"
+            "C:\\Users\\mathi\\git\\tp-winform-Galarza-Tejeda\\Controlador\\Controlador.csproj": {
+              "projectPath": "C:\\Users\\mathi\\git\\tp-winform-Galarza-Tejeda\\Controlador\\Controlador.csproj"
             },
-            "C:\\Users\\mathi\\git\\Programacion-III\\Modelo\\Modelo.csproj": {
-              "projectPath": "C:\\Users\\mathi\\git\\Programacion-III\\Modelo\\Modelo.csproj"
+            "C:\\Users\\mathi\\git\\tp-winform-Galarza-Tejeda\\Modelo\\Modelo.csproj": {
+              "projectPath": "C:\\Users\\mathi\\git\\tp-winform-Galarza-Tejeda\\Modelo\\Modelo.csproj"
             }
           }
         }
@@ -551,7 +551,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

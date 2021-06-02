@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mathi\\git\\Programacion-III\\Modelo\\Modelo.csproj",
+      "projectUniqueName": "C:\\Users\\mathi\\git\\tp-winform-Galarza-Tejeda\\Modelo\\Modelo.csproj",
       "projectName": "Modelo",
-      "projectPath": "C:\\Users\\mathi\\git\\Programacion-III\\Modelo\\Modelo.csproj",
+      "projectPath": "C:\\Users\\mathi\\git\\tp-winform-Galarza-Tejeda\\Modelo\\Modelo.csproj",
       "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mathi\\git\\Programacion-III\\Modelo\\obj\\",
+      "outputPath": "C:\\Users\\mathi\\git\\tp-winform-Galarza-Tejeda\\Modelo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

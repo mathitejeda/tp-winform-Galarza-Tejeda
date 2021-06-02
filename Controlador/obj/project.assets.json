@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mathi\\git\\Programacion-III\\Controlador\\Controlador.csproj",
+      "projectUniqueName": "C:\\Users\\mathi\\git\\tp-winform-Galarza-Tejeda\\Controlador\\Controlador.csproj",
       "projectName": "Controlador",
-      "projectPath": "C:\\Users\\mathi\\git\\Programacion-III\\Controlador\\Controlador.csproj",
+      "projectPath": "C:\\Users\\mathi\\git\\tp-winform-Galarza-Tejeda\\Controlador\\Controlador.csproj",
       "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mathi\\git\\Programacion-III\\Controlador\\obj\\",
+      "outputPath": "C:\\Users\\mathi\\git\\tp-winform-Galarza-Tejeda\\Controlador\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -496,8 +496,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\mathi\\git\\Programacion-III\\Modelo\\Modelo.csproj": {
-              "projectPath": "C:\\Users\\mathi\\git\\Programacion-III\\Modelo\\Modelo.csproj"
+            "C:\\Users\\mathi\\git\\tp-winform-Galarza-Tejeda\\Modelo\\Modelo.csproj": {
+              "projectPath": "C:\\Users\\mathi\\git\\tp-winform-Galarza-Tejeda\\Modelo\\Modelo.csproj"
             }
           }
         }
@@ -532,7 +532,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
